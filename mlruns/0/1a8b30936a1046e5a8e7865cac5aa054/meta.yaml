@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Mlops/nyc_taxi_project/nyc_taxi_new/nyc_taxi/mlruns/0/1a8b30936a1046e5a8e7865cac5aa054/artifacts
+end_time: 1708371703976
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1a8b30936a1046e5a8e7865cac5aa054
+run_name: XGB Best Model
+run_uuid: 1a8b30936a1046e5a8e7865cac5aa054
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708371694194
+status: 3
+tags: []
+user_id: rkhan

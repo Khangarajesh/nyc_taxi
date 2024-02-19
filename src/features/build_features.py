@@ -27,7 +27,7 @@ if __name__ == '__main__':
     
     
     
-#EXPENATION
+#EXPENATIO
 #Take the data from data/raw folder 
 #use test_fuiture_build function to create extra features and 
 # save the newly created features file in data/processsed folder...

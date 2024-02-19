@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Mlops/nyc_taxi_project/nyc_taxi_new/nyc_taxi/mlruns/0/3331dcf1182849a8a6eedc03be4d0d9e/artifacts
+end_time: 1708371694179
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3331dcf1182849a8a6eedc03be4d0d9e
+run_name: XGBRegressor
+run_uuid: 3331dcf1182849a8a6eedc03be4d0d9e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708371679266
+status: 3
+tags: []
+user_id: rkhan
