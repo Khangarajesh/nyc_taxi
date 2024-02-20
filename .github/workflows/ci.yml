@@ -21,7 +21,7 @@ jobs:
    built-and-push-ecr-image:
      name: push to ecr 
      needs: integration
-     runs-on: ubuntu latest 
+     runs-on: ubuntu-latest 
 
      steps:
      - name: Checkout
