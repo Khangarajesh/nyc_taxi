@@ -47,11 +47,11 @@ jobs:
        id: build-image
        env:
         ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
-        IMAGE_TAG: latest
         ECR_REPOSITORY: ${{ secrets.REPOSITORY_NAME }}
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        AWS_REGION: ${{ secrets.AWS_REGION }}      
+        AWS_REGION: ${{ secrets.AWS_REGION }}   
+        IMAGE_TAG: latest   
        run: |
         # Build a docker container and
         # push it to ECR so that it can
