@@ -1,5 +1,7 @@
-pydantic
+# external requirements
 fastapi
 joblib
-src.features.feature_definitions
+uvicorn
+scikit-learn
 pandas
+xgboost
