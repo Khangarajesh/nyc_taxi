@@ -1,0 +1,5 @@
+1)This project consist of building ml model which will predict the price of the trip of taxi in newyork city
+2)project is made very professionaly because of following practices 
+ a)structured approach - (cookicutter_templae)
+ b)data ALREADY LOADED IN table in raw folder
+ c)the data is then processed and newly features added using the code in build feature tabled)
