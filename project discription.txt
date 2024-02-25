@@ -1,5 +1,12 @@
 1)This project consist of building ml model which will predict the price of the trip of taxi in newyork city
 2)project is made very professionaly because of following practices 
- a)structured approach - (cookicutter_templae)
- b)data ALREADY LOADED IN table in raw folder
- c)the data is then processed and newly features added using the code in build feature tabled)
+  a)structured approach - (cookicutter_templae)
+  b)data ALREADY LOADED IN table in raw folder
+  c)the data is then processed and new features added using the code in build feature tabled -- done using pipeline
+  d)model selection
+  e)model training --training and hyperparameters passed using pipeline 
+  f)while training the model, model was continuously tracked by mlflow, data tracked by dvc and code tracked by git
+  g)app.py file created which will take inputs from user, very quickly new features will be created, and model prediction will be done
+  h)docker file created for app deployment 
+  i)ci-cd pipeline created to build and push the docker image in ECR and then pull that image and run it on docker 
+

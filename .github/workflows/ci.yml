@@ -61,7 +61,7 @@ jobs:
 
    continuous-deployment:     
      name: continuous-deployment
-     runs-on: ubuntu-latest
+     runs-on: self-hosted
      needs: built-and-push-ecr-image
 
      steps:
